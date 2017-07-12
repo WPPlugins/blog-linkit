@@ -1,0 +1,32 @@
+{
+	"version":"5.3",
+	"status":"release",
+	"name":"LinkIt",
+	"slug":"bloglinkit",
+	"multisite":true,
+	"wordpress":
+	{
+		"uri":"http://linkit.dcoda.co.uk/",
+		"donate_link":"http://linkit.dcoda.co.uk/donate/",
+		"short_desc":"Link Insertion tool",
+		"tags":
+		[
+			"post",
+			"blogroll",
+			"link",
+			"seo",
+			"links",
+			"link insertion"
+		],
+		"wpslug":"blog-linkit",
+		"stable_tag":"5.3.46"
+	},
+	"help_meta":
+	{
+		"gettingstarted":
+		{
+			"url":"http://linkit.dcoda.co.uk/help/"
+		}
+	}
+
+}

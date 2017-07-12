@@ -1,0 +1,13 @@
+<a
+	class = 'linkit'
+	<?php 
+		if ($this->link->link_target !== '') {
+			echo " target = '{$this->link->link_target}' ";
+		}
+	?>
+	href='<?php echo $this->link->link_url;?>'
+	rel='external <?php echo $this->link->link_rel;?>'
+	title='<?php echo $this->link->link_description;?>'
+>
+	<?php echo $this->link->link_name;?>
+</a>
